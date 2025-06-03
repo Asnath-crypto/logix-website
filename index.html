@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from around.createx.studio/landing-web-studio.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 May 2023 09:09:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>LOGIX - Home</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Around - Multipurpose Bootstrap HTML Template">
+    <meta name="keywords" content="bootstrap, business, corporate, coworking space, services, creative agency, dashboard, e-commerce, mobile app showcase, saas, multipurpose, product landing, shop, software, ui kit, web studio, landing, dark mode, html5, css3, javascript, gallery, slider, touch, creative">
+    <meta name="author" content="Createx Studio">
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" color="#6366f1" href="assets/favicon/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#080032">
+    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="white">
+    <!-- Theme mode-->
+    <script>
+      let mode = window.localStorage.getItem('mode'),
+          root = document.getElementsByTagName('html')[0];
+      if (mode !== undefined && mode === 'dark') {
+        root.classList.add('dark-mode');
+      } else {
+        root.classList.remove('dark-mode');
+      }
+      
+      
+    </script>
+    <!-- Page loading styles-->
+    <style>
+      .page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .dark-mode .page-loading {
+        background-color: #121519;
+      }
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .page-loading.active > .page-loading-inner {
+        opacity: 1;
+      }
+      .page-loading-inner > span {
+        display: block;
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #6f788b;
+      }
+      .dark-mode .page-loading-inner > span {
+        color: #fff;
+        opacity: .6;
+      }
+      .page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        background-color: #d7dde2; 
+        border-radius: 50%;
+        opacity: 0;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      .dark-mode .page-spinner {
+        background-color: rgba(255,255,255,.25);
+      }
+      @-webkit-keyframes spinner {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+      @keyframes spinner {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+      
+    </style>
+    <!-- Page loading scripts-->
+    <script>
+      (function () {
+        window.onload = function () {
+          const preloader = document.querySelector('.page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 1500);
+        };
+      })();
+      
+    </script>
+    <!-- Import Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" id="google-font">
+    <!-- Vendor styles-->
+    <link rel="stylesheet" media="screen" href="/assets/vendor/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" media="screen" href="/assets/vendor/aos/dist/aos.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="/assets/css/theme.min.css">
+    <!-- Customizer generated styles-->
+    <style id="customizer-styles"></style>
+    <!-- Google Tag Manager-->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WKV3GT5');
+    </script>
+  </head>
+  <!-- Body-->
+  <body>
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe src="http://www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+    </noscript>
+    <!-- Page loading spinner-->
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+    <!-- Customizer modal-->
+    <div class="modal fade" id="customizer-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Your custom styles</h4>
+            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body py-4">
+            <p class="mb-3">Grab the generated styles below. Wrap them inside <code>&lt;style&gt;</code> tag and put in the <code>&lt;head&gt;</code> section of your HTML document.</p>
+            <p class="mb-4"><span class='fw-medium'>IMPORTANT:</span> In order for these styles to take effect you have to placed them below:<br><code>&lt;link rel=&quot;stylesheet&quot; media=&quot;screen&quot; href=&quot;assets/css/theme.min.css&quot;&gt;</code></p>
+            <div class="bg-secondary overflow-hidden rounded-4">
+              <pre class="text-wrap bg-transparent border-0 text-dark p-4" id="custom-generated-styles"></pre>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary w-100 w-sm-auto mb-3 mb-sm-0" type="button" data-bs-dismiss="modal">Close</button>
+            <button class="btn btn-primary w-100 w-sm-auto ms-sm-3" type="button" id="copy-styles-btn"><i class="ai-copy me-2 ms-n1"></i>Copy styles</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Customizer toggler--><a class="position-fixed top-50 bg-light text-dark fw-medium border rounded-pill shadow text-decoration-none" href="#customizer" data-bs-toggle="offcanvas" style="right: -1.75rem; margin-top: -1rem; padding: .25rem .75rem; transform: rotate(-90deg); font-size: calc(var(--ar-body-font-size) * .8125); letter-spacing: .075rem; z-index: 1030;"><i class="ai-settings text-primary fs-base me-1 ms-n1"></i></a>
+    <!-- Customizer offcanvas-->
+    <div class="offcanvas offcanvas-end" id="customizer" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1">
+      <div class="offcanvas-header border-bottom">
+        <h4 class="offcanvas-title">Customize theme</h4>
+        <button class="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="d-flex align-items-center mb-3"><i class="ai-paint-roll text-muted fs-4 me-2"></i>
+          <h5 class="mb-0">Colors</h5>
+        </div>
+        <div class="row row-cols-3 g-3 mb-5" id="theme-colors">
+          <div class="col">
+            <div class="text-dark fs-sm fw-medium mb-2">Primary</div>
+            <div class="color-swatch" id="theme-primary" data-color-labels="[&quot;theme-primary&quot;, &quot;primary&quot;, &quot;primary-rgb&quot;]">
+              <label class="ratio ratio-4x3 border rounded-1 cursor-pointer mb-1" for="primary" style="background-color: #df6c0e;" role="button"></label>
+              <input class="form-control form-control-sm" type="text" value="#448c74">
+              <input class="visually-hidden" type="color" id="primary" value="#448c74">
+            </div>
+          </div>
+          <div class="col">
+            <div class="text-dark fs-sm fw-medium mb-2">Warning</div>
+            <div class="color-swatch" id="theme-warning" data-color-labels="[&quot;theme-warning&quot;, &quot;warning&quot;, &quot;warning-rgb&quot;]">
+              <label class="ratio ratio-4x3 border rounded-1 cursor-pointer mb-1" for="warning" style="background-color: #dc8213;" role="button"></label>
+              <input class="form-control form-control-sm" type="text" value="#edcb50">
+              <input class="visually-hidden" type="color" id="warning" value="#edcb50">
+            </div>
+          </div>
+          <div class="col">
+            <div class="text-dark fs-sm fw-medium mb-2">Info</div>
+            <div class="color-swatch" id="theme-info" data-color-labels="[&quot;theme-info&quot;, &quot;info&quot;, &quot;info-rgb&quot;]">
+              <label class="ratio ratio-4x3 border rounded-1 cursor-pointer mb-1" for="info" style="background-color: #3983d7;" role="button"></label>
+              <input class="form-control form-control-sm" type="text" value="#3f7fca">
+              <input class="visually-hidden" type="color" id="info" value="#3f7fca">
+            </div>
+          </div>
+          <div class="col">
+            <div class="text-dark fs-sm fw-medium pt-1 mb-2">Success</div>
+            <div class="color-swatch" id="theme-success" data-color-labels="[&quot;theme-success&quot;, &quot;success&quot;, &quot;success-rgb&quot;]">
+              <label class="ratio ratio-4x3 border rounded-1 cursor-pointer mb-1" for="success" style="background-color: #edf1f0;" role="button"></label>
+              <input class="form-control form-control-sm" type="text" value="#3fca90">
+              <input class="visually-hidden" type="color" id="success" value="#3fca90">
+            </div>
+          </div>
+          <div class="col">
+            <div class="text-dark fs-sm fw-medium pt-1 mb-2">Danger</div>
+            <div class="color-swatch" id="theme-danger" data-color-labels="[&quot;theme-danger&quot;, &quot;danger&quot;, &quot;danger-rgb&quot;]">
+              <label class="ratio ratio-4x3 border rounded-1 cursor-pointer mb-1" for="danger" style="background-color: #da3434;" role="button"></label>
+              <input class="form-control form-control-sm" type="text" value="#ed5050">
+              <input class="visually-hidden" type="color" id="danger" value="#ed5050">
+            </div>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mb-3"><i class="ai-align-left text-muted fs-4 me-2"></i>
+          <h5 class="mb-0">Typography <span class="text-muted fs-sm fw-normal">(1rem = 16px)</span></h5>
+        </div>
+        <div class="mb-5">
+          <div class="mb-3">
+            <label class="text-dark fs-sm fw-medium pt-1 mb-2" for="font-url">Google font URL</label>
+            <input class="form-control" type="url" value="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" id="font-url">
+          </div>
+          <div class="mb-3">
+            <label class="text-dark fs-sm fw-medium pt-1 mb-2" for="body-font-family">Font family</label>
+            <input class="form-control" type="text" value="'Inter', sans-serif" id="body-font-family">
+          </div>
+          <div class="row row-cols-2">
+            <div class="col mb-3">
+              <label class="d-flex w-100 text-dark fs-sm fw-medium pt-1 mb-2" for="root-font-size">Root font size, rem</label>
+              <select class="form-select" id="root-font-size">
+                <option value=".75rem">.75</option>
+                <option value=".875rem">.875</option>
+                <option value="1rem" selected>1</option>
+                <option value="1.05rem">1.05</option>
+                <option value="1.1rem">1.1</option>
+                <option value="1.15rem">1.15</option>
+                <option value="1.25rem">1.25</option>
+                <option value="1.375rem">1.375</option>
+              </select>
+            </div>
+            <div class="col mb-3">
+              <label class="d-flex w-100 text-dark fs-sm fw-medium pt-1 mb-2" for="body-font-size">Body font size, rem</label>
+              <select class="form-select" id="body-font-size">
+                <option value=".75rem">.75</option>
+                <option value=".875rem">.875</option>
+                <option value="1rem" selected>1</option>
+                <option value="1.15rem">1.15</option>
+                <option value="1.25rem">1.25</option>
+                <option value="1.375rem">1.375</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mt-n2 mb-3"><i class="ai-maximize text-muted fs-5 me-2"></i>
+          <h5 class="mb-0">Borders / Rounding</h5>
+        </div>
+        <div class="mb-3">
+          <label class="d-flex w-100 text-dark fs-sm fw-medium pt-1 mb-2" for="border-width">Border width, px</label>
+          <input class="form-control" type="number" min="0" step="1" value="1" id="border-width">
+        </div>
+        <div class="mb-3">
+          <label class="d-flex w-100 text-dark fs-sm fw-medium pt-1 mb-2" for="border-radius">Rounded base, rem</label>
+          <input class="form-control" type="number" min="0" step=".05" value="1" id="border-radius">
+        </div>
+        <div id="theme-border-radiuses">
+          <div class="mb-3">
+            <label class="d-flex w-100 text-dark fs-sm fw-medium pt-1 mb-2" for="border-radius-sm">
+              Rounded SM<span class='text-muted fw-normal ms-1'> = Rounded base multiplied by</span></label>
+            <input class="form-control" type="number" min="0" step=".05" value=".75" id="border-radius-sm">
+          </div>
+          <div class="mb-3">
+            <label class="d-flex w-100 text-dark fs-sm fw-medium pt-1 mb-2" for="border-radius-lg">
+              Rounded LG<span class='text-muted fw-normal ms-1'> = Rounded base multiplied by</span></label>
+            <input class="form-control" type="number" min="0" step=".05" value="1.125" id="border-radius-lg">
+          </div>
+          <div class="mb-3">
+            <label class="d-flex w-100 text-dark fs-sm fw-medium pt-1 mb-2" for="border-radius-xl">
+              Rounded XL<span class='text-muted fw-normal ms-1'> = Rounded base multiplied by</span></label>
+            <input class="form-control" type="number" min="0" step=".05" value="1.5" id="border-radius-xl">
+          </div>
+          <div class="mb-3">
+            <label class="d-flex w-100 text-dark fs-sm fw-medium pt-1 mb-2" for="border-radius-2xl">
+              Rounded 2XL<span class='text-muted fw-normal ms-1'> = Rounded base multiplied by</span></label>
+            <input class="form-control" type="number" min="0" step=".05" value="2.25" id="border-radius-2xl">
+          </div>
+        </div>
+      </div>
+      <div class="offcanvas-header border-top d-none" id="customizer-btns">
+        <button class="btn btn-secondary w-100 me-3" type="button" id="customizer-reset-btn"><i class="ai-undo fs-lg me-2 ms-n1"></i>Reset</button>
+        <button class="btn btn-primary w-100" type="button" data-bs-toggle="modal" data-bs-target="#customizer-modal"><i class="ai-code-curly fs-lg me-2 ms-n1"></i>Show styles</button>
+      </div>
+    </div>
+    <!-- Page wrapper-->
+    <main class="page-wrapper">
+      <!-- Navbar. Remove 'fixed-top' class to make the navigation bar scrollable with the page-->
+      <header class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a class="navbar-brand pe-sm-3" href="index.html"><span class="text-primary flex-shrink-0 me-2">
+    <a class="navbar-brand d-flex align-items-center" href="index.html" style="margin-left: -2px;">
+  <img src="assets/favicon/logix.png" alt="Logix" class="img-fluid" style="height: 65px;">
+</a>
+
+
+
+          <div class="form-check form-switch mode-switch order-lg-2 me-3 me-lg-4 ms-auto" data-bs-toggle="mode">
+            <input class="form-check-input" type="checkbox" id="theme-mode">
+            <label class="form-check-label" for="theme-mode"><i class="ai-sun fs-lg"></i></label>
+            <label class="form-check-label" for="theme-mode"><i class="ai-moon fs-lg"></i></label>
+          </div>
+          <button class="navbar-toggler ms-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+          <nav class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar-nav-scroll me-auto" style="--ar-scroll-height: 520px;">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link"href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="services.html">Services</a> </li>
+              <li class="nav-item"><a class="nav-link" href="cases.html">Cases</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacts.html">Contacts</a></li>
+            </ul>
+            <div>
+          </nav>
+        </div>
+      </header>
+      </div>
+      <!-- Page content-->
+      <!-- Hero-->
+      <section class="container-fluid py-5 px-sm-4 px-md-5" style="margin-top: 50px;">
+        <div class="dark-mode bg-dark rounded-5 position-relative overflow-hidden py-5 px-3 px-sm-4 px-xl-5 mt-2 mx-md-n3 mx-lg-auto" style="max-width: 1660px; min-height: 00px;">
+      <!-- Video Background -->
+<video autoplay muted loop playsinline 
+       class="position-absolute top-0 start-0 w-100 h-100" 
+       style="object-fit: cover; z-index: 0;">
+  <source src="assets/videos/bvlogix.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<!-- Black Overlay -->
+<div class="position-absolute top-0 start-0 w-100 h-100" 
+     style="background-color: rgba(0, 0, 0, 0.7); z-index: 1;"></div>
+
+          <div class="bg-white position-absolute top-0 start-0 w-100 h-100" style="opacity: 2%;"></div>
+          <div class="container position-relative zindex-2 pt-xl-4 pt-xxl-5 pb-sm-2">
+            <div class="row pt-md-3 pt-lg-5">
+              <div class="col-lg-6 col-xxl-5 pb-lg-5 mb-xl-5">
+                <h1 class="display-1 text-center text-lg-start mb-xxl-5">Strategic Software<span class='text-primary'> development</span></h1>
+              </div>
+              <div class="col-lg-5 col-xl-4 offset-lg-1 offset-xxl-2 d-flex flex-column pt-2 pt-md-4">
+                <p class="fs-xl text-center text-lg-start pb-2 pb-md-0 mb-3 mb-md-5">We craft robust, scalable software solutions with modern frameworks and technologies.</p>
+                <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-lg-start pb-3 pb-sm-5"><a class="btn btn-lg btn-primary rounded-pill w-100 w-sm-auto me-sm-3 me-xl-4 mb-2 mb-sm-0" href="contacts.html">Let's partner</a><a class="btn btn-lg btn-link text-white w-100 w-sm-auto px-2" href="cases.html">View Case Studies<i class="ai-arrow-right ms-2"></i></a></div>
+                <ul class="list-inline d-xl-flex text-center text-lg-start mt-auto mb-0 mb-sm-2">
+                  <li class="d-inline-flex align-items-center text-nowrap pt-1 me-4"><i class="ai-check-alt text-primary fs-xl me-2"></i>Empowering Businesses Through</li>
+                  <li class="d-inline-flex align-items-center text-nowrap pt-1"><i class="ai-check-alt text-primary fs-xl me-2"></i>Software Solutions</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Awards-->
+     <!-- Partners-->
+      <section class="pt-sm-1 pt-lg-3 pt-xl-4">
+        <div class="swiper pb-3 pb-sm-4 mb-xl-2" data-swiper-options="{
+      &quot;loop&quot;: true,
+      &quot;grabCursor&quot;: false,
+      &quot;centeredSlides&quot;: true,
+      &quot;autoplay&quot;: {
+        &quot;delay&quot;: 0,
+        &quot;disableOnInteraction&quot;: false
+      },
+      &quot;freeMode&quot;: true,
+      &quot;speed&quot;: 10000,
+      &quot;freeModeMomentum&quot;: false,
+      &quot;breakpoints&quot;: {
+        &quot;0&quot;: { &quot;slidesPerView&quot;: 2 },
+        &quot;600&quot;: { &quot;slidesPerView&quot;: 3 },
+        &quot;800&quot;: { &quot;slidesPerView&quot;: 4 },
+        &quot;1200&quot;: { &quot;slidesPerView&quot;: 5 },
+        &quot;1400&quot;: { &quot;slidesPerView&quot;: 6 },
+        &quot;1600&quot;: { &quot;slidesPerView&quot;: 7 }
+      }
+    }">
+          <div class="swiper-wrapper" style="transition-timing-function: linear !important;">
+            <div class="swiper-slide"><img class="d-block d-dark-mode-none mx-auto" src="assets/img/clients/Promptrlogo.png" width="110" alt="Starcraft"><img class="d-none d-dark-mode-block mx-auto" src="assets/img/clients/Promptrlogo.png" width="100" alt="promptr"></div>
+            <div class="swiper-slide"><img class="d-block mx-auto" src="assets/img/clients/TUNZAA.png" width="110" alt="Tunzaa"></div>
+            <div class="swiper-slide"><img class="d-block mx-auto" src="assets/img/clients/NBC.png" width="100" alt="nbc"></div>
+            <div class="swiper-slide"><img class="d-block mx-auto" src="assets/img/clients/msafiri.png" width="100" alt="msafiri"></div>
+            <div class="swiper-slide"><img class="d-block mx-auto" src="assets/img/clients/LANTERN.png" width="150" alt="lantern"></div>
+            <div class="swiper-slide"><img class="d-block mx-auto" src="assets/img/clients/APE.png" width="100" alt="ape"></div>
+            <div class="swiper-slide"><img class="d-block mx-auto" src="assets/img/clients/stjosephlog.png" width="120" alt="lantern"></div>
+            <div class="swiper-slide"><img class="d-block mx-auto" src="assets/img/clients/AMACHA.png" width="100" alt="amacha"></div>
+            <div class="swiper-slide"><img class="d-block d-dark-mode-none mx-auto" src="assets/img/clients/eatv.png" width="50" alt="eatv"><img class="d-none d-dark-mode-block mx-auto" src="assets/img/clients/eatv.png" width="50" alt="eatv"></div>
+            <div class="swiper-slide"><img class="d-block mx-auto" src="assets/img/portfolio/brands/shabibynobg.png" width="130" alt="shabiby"></div>
+          </div>
+        </div>
+      <!-- Services (Carousel on screns < 992px)-->
+      <section class="container pt-sm-2 pt-md-3 pt-lg-4 pt-xl-5 mt-xxl-4 pb-lg-2 pb-xl-4 pb-xxl-5">
+        <h2 class="h1 text-center pb-3 pb-lg-4">Our services</h2>
+        <div class="swiper" data-swiper-options="
+      {
+        &quot;spaceBetween&quot;: 24,
+        &quot;pagination&quot;: {
+          &quot;el&quot;: &quot;.swiper-pagination&quot;,
+          &quot;clickable&quot;: true
+        },
+        &quot;breakpoints&quot;: {
+          &quot;576&quot;: { &quot;slidesPerView&quot;: 2 },
+          &quot;992&quot;: { &quot;slidesPerView&quot;: 3 }
+        }
+      }
+    ">
+          <div class="swiper-wrapper">
+            <!-- Item-->
+            <div class="swiper-slide h-auto"><a class="card bg-secondary border-0 h-100 text-center text-decoration-none" href="services.html#mobile-app-development">
+                <div class="card-body">
+                  <svg class="d-block mx-auto mb-4" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="text-warning" d="M50,15.1V8.7c0-2.1-1.7-3.9-3.9-3.9H9.9C7.7,4.8,6,6.5,6,8.7v6.4H50z M35.7,10h7.7c0.7,0,1.3,0.6,1.3,1.3c0,0.7-0.6,1.3-1.3,1.3h-7.7c-0.7,0-1.3-0.6-1.3-1.3C34.4,10.5,35,10,35.7,10z M22.8,10c0.7,0,1.3,0.6,1.3,1.3c0,0.7-0.6,1.3-1.3,1.3c-0.7,0-1.3-0.6-1.3-1.3C21.6,10.5,22.1,10,22.8,10z M17.7,10c0.7,0,1.3,0.6,1.3,1.3c0,0.7-0.6,1.3-1.3,1.3c-0.7,0-1.3-0.6-1.3-1.3C16.4,10.5,17,10,17.7,10z M12.5,10c0.7,0,1.3,0.6,1.3,1.3c0,0.7-0.6,1.3-1.3,1.3c-0.7,0-1.3-0.6-1.3-1.3C11.2,10.5,11.8,10,12.5,10z" fill="currentColor"></path>
+                    <path class="text-primary" d="M6,17.7v27.1c0,2.1,1.7,3.9,3.9,3.9h36.3c2.1,0,3.9-1.7,3.9-3.9V17.7H6z M21.1,36c0.6,0.4,0.6,1.3,0.2,1.8c-0.4,0.6-1.3,0.6-1.8,0.2L13,32.9c-0.6-0.5-0.6-1.5,0-2l6.4-5.2c0.6-0.4,1.4-0.4,1.8,0.2c0.4,0.6,0.4,1.4-0.2,1.8l-5.2,4.1L21.1,36z M33.1,23.4l-7.7,18c-0.3,0.7-1,1-1.7,0.7c-0.7-0.3-1-1-0.7-1.7l7.7-18c0.3-0.7,1-1,1.7-0.7S33.3,22.7,33.1,23.4z M43,32.9L36.5,38c-0.6,0.4-1.4,0.4-1.8-0.2c-0.4-0.6-0.4-1.4,0.2-1.8l5.2-4.1l-5.2-4.1c-0.6-0.4-0.6-1.3-0.2-1.8c0.4-0.6,1.3-0.6,1.8-0.2l6.4,5.2C43.6,31.4,43.6,32.4,43,32.9z" fill="currentColor"></path>
+                  </svg>
+                  <h3>Web & App Development</h3>
+                  <p class="card-text">Fast, secure, and scalable apps using frameworks like Vue, React, Django, and Laravel. Optimized for all devices and users.</p>
+                </div>
+                <div class="card-footer border-0 px-0 pt-0 pb-4 mb-3">
+                  <div class="btn btn-icon btn-outline-primary rounded-circle stretched-link"><i class="ai-arrow-right"></i></div>
+                </div></a></div>
+            <!-- Item-->
+            <div class="swiper-slide h-auto"><a class="card bg-secondary border-0 h-100 text-center text-decoration-none" href="services.html#custome-software-development">
+                <div class="card-body">
+                  <svg class="d-block mx-auto mb-4" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="text-primary" d="M39.2,0H16.8c-3.1,0-5.6,2.5-5.6,5.6V9h33.6V5.6C44.8,2.5,42.3,0,39.2,0z M30.2,6.7h-4.5c-0.6,0-1.1-0.5-1.1-1.1s0.5-1.1,1.1-1.1h4.5c0.6,0,1.1,0.5,1.1,1.1S30.9,6.7,30.2,6.7z" fill="currentColor"></path>
+                    <path class="text-primary" d="M11.2,47v3.4c0,3.1,2.5,5.6,5.6,5.6h22.4c3.1,0,5.6-2.5,5.6-5.6V47H11.2L11.2,47z M28,51.5c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1c0.6,0,1.1,0.5,1.1,1.1C29.1,51,28.6,51.5,28,51.5z" fill="currentColor"></path>
+                    <path class="text-warning" d="M11.2,11.2v33.6h33.6V11.2H11.2z M23.6,30.8c0.3,0.3,0.4,0.8,0.1,1.2s-0.9,0.5-1.2,0.3l-4.2-3.5c-0.4-0.4-0.4-1,0-1.4l4.2-3.5c0.4-0.3,0.9-0.3,1.2,0.1c0.3,0.3,0.3,0.9-0.1,1.2L20.2,28L23.6,30.8z M31.3,22.3l-5,12.2c-0.2,0.4-0.7,0.6-1.1,0.5c-0.4-0.1-0.6-0.7-0.4-1.1l5-12.2c0.2-0.5,0.7-0.7,1.1-0.5C31.3,21.3,31.5,21.9,31.3,22.3z M37.7,28.7l-4.2,3.5c-0.3,0.3-0.9,0.2-1.2-0.3C32,31.6,32,31,32.4,30.7l3.4-2.8l-3.4-2.8c-0.3-0.3-0.4-0.8-0.1-1.2c0.3-0.3,0.8-0.4,1.2-0.1l4.2,3.5C38.1,27.7,38.1,28.3,37.7,28.7z" fill="currentColor"></path>
+                  </svg>
+                  <h3>Custom Software Development</h3>
+                  <p class="card-text">Tailor made software aligned with your business goals. From backend logic to frontend interfaces, we build to solve your unique challenges.</p>
+                </div>
+                <div class="card-footer border-0 px-0 pt-0 pb-4 mb-3">
+                  <div class="btn btn-icon btn-outline-primary rounded-circle stretched-link"><i class="ai-arrow-right"></i></div>
+                </div></a></div>
+            <!-- Item-->
+            <div class="swiper-slide h-auto"><a class="card bg-secondary border-0 h-100 text-center text-decoration-none" href="services.html#more-services">
+                <div class="card-body">
+                  <svg class="d-block mx-auto mb-4" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="text-primary" d="M4.85938 44.8138C4.86158 46.9513 6.59422 48.6836 8.73171 48.6861H47.455C49.5925 48.6836 51.3252 46.9513 51.3274 44.8138V19.5857H4.85938V44.8138ZM17.1606 25.736C18.4048 25.7451 19.4943 26.5717 19.839 27.7671H25.1642V26.509C25.1642 26.055 25.5324 25.6876 25.9856 25.6876H30.1451C30.5987 25.6876 30.9665 26.055 30.9665 26.509V27.7671H36.2432C36.6499 26.4437 37.9634 25.6168 39.3323 25.8221C40.7012 26.0278 41.714 27.2039 41.714 28.5885C41.714 29.9728 40.7012 31.1488 39.3323 31.3541C37.9634 31.5595 36.6499 30.7333 36.2432 29.4099H33.1578C34.698 30.8298 35.5718 32.8308 35.5667 34.9254V38.1795H36.6811C37.1343 38.1795 37.5025 38.5477 37.5025 39.0009V43.16C37.5025 43.6136 37.1343 43.9814 36.6811 43.9814H32.5216C32.068 43.9814 31.7002 43.6136 31.7002 43.16V39.0009C31.7002 38.5477 32.068 38.1795 32.5216 38.1795H33.9239V34.9254C33.9297 32.8187 32.7996 30.8727 30.9668 29.8331V30.6673C30.9668 31.1209 30.5994 31.4887 30.1454 31.4887H25.9856C25.5324 31.4887 25.1642 31.1209 25.1642 30.6673V29.8342C23.3351 30.8756 22.2057 32.8202 22.2075 34.9254V38.1795H23.6094C24.0634 38.1795 24.4308 38.5469 24.4308 39.0009V43.1596C24.4308 43.6136 24.0634 43.981 23.6094 43.981H19.4503C18.9963 43.981 18.6289 43.6136 18.6289 43.1596V39.0009C18.6289 38.5477 18.9963 38.1795 19.4503 38.1795H20.5643V34.9254C20.5629 32.8301 21.4385 30.8298 22.9798 29.4099H19.839C19.3953 30.7744 17.993 31.5844 16.5893 31.2874C15.1852 30.9907 14.2318 29.682 14.3785 28.2548C14.5255 26.8273 15.7254 25.7407 17.1606 25.736Z" fill="currentColor"></path>
+                    <path class="text-warning" d="M51 17V10.125C51 7.85048 49.1863 6 46.957 6H9.04297C6.81368 6 5 7.85048 5 10.125V17H51ZM36.0859 11.5H44.1719C44.9161 11.5 45.5195 12.1156 45.5195 12.875C45.5195 13.6344 44.9161 14.25 44.1719 14.25H36.0859C35.3417 14.25 34.7383 13.6344 34.7383 12.875C34.7383 12.1156 35.3417 11.5 36.0859 11.5ZM22.6094 11.5C23.3536 11.5 23.957 12.1156 23.957 12.875C23.957 13.6344 23.3536 14.25 22.6094 14.25C21.8651 14.25 21.2617 13.6344 21.2617 12.875C21.2617 12.1156 21.8651 11.5 22.6094 11.5ZM17.2188 11.5C17.963 11.5 18.5664 12.1156 18.5664 12.875C18.5664 13.6344 17.963 14.25 17.2188 14.25C16.4745 14.25 15.8711 13.6344 15.8711 12.875C15.8711 12.1156 16.4745 11.5 17.2188 11.5ZM11.8281 11.5C12.5724 11.5 13.1758 12.1156 13.1758 12.875C13.1758 13.6344 12.5724 14.25 11.8281 14.25C11.0839 14.25 10.4805 13.6344 10.4805 12.875C10.4805 12.1156 11.0839 11.5 11.8281 11.5Z" fill="currentColor"></path>
+                  </svg>
+                  <h3>API & System Integration</h3>
+                  <p class="card-text">Seamless integration with third party platforms, mobile money, NACTE, payment gateways, and internal systems.</p>
+                </div>
+                <div class="card-footer border-0 px-0 pt-0 pb-4 mb-3">
+                  <div class="btn btn-icon btn-outline-primary rounded-circle stretched-link"><i class="ai-arrow-right"></i></div>
+                </div></a></div>
+          </div>
+          <!-- Pagination (bullets)-->
+          <div class="swiper-pagination position-relative bottom-0 mt-2 pt-4 d-lg-none"></div>
+        </div>
+      </section>
+<!-- Industries (Binded accordion)-->
+<section class="container py-5 mt-2 mt-sm-3 mt-md-4">
+  <h2 class="h1 text-center pt-lg-3">Industries we work in</h2>
+  <p class="pb-3 pb-md-4 mb-0 mb-sm-2 mb-lg-3 text-center">Most of our projects come from the industries below</p>
+  <div class="row align-items-lg-center">
+    <!-- Accordion-->
+    <div class="col-md-6 col-lg-5 pb-2 pb-lg-0 mb-4 mb-md-0">
+      <div class="accordion accordion-alt" id="industries">
+      
+        <!-- Healthcare -->
+        <div class="accordion-item mb-n3 mb-lg-n2 mb-xl-1">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-binded-content="#img-healthcare" data-bs-target="#panel-healthcare" aria-expanded="true" aria-controls="panel-healthcare">Healthcare</button>
+          </h3>
+          <div class="accordion-collapse collapse show" id="panel-healthcare" data-bs-parent="#industries">
+            <div class="accordion-body">Innovative systems for patient management, appointments, and E-health records.</div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="accordion-item mb-n3 mb-lg-n2 mb-xl-1">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-binded-content="#img-education" data-bs-target="#panel-education" aria-expanded="false" aria-controls="panel-education">Education</button>
+          </h3>
+          <div class="accordion-collapse collapse" id="panel-education" data-bs-parent="#industries">
+            <div class="accordion-body">E-learning platforms, school portals, and online assessments.</div>
+          </div>
+        </div>
+
+        <!-- Finance -->
+        <div class="accordion-item mb-n3 mb-lg-n2 mb-xl-1">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-binded-content="#img-finance" data-bs-target="#panel-finance" aria-expanded="false" aria-controls="panel-finance">Finance</button>
+          </h3>
+          <div class="accordion-collapse collapse" id="panel-finance" data-bs-parent="#industries">
+            <div class="accordion-body">Empowering digital finance with technology.</div>
+          </div>
+        </div>
+
+        <!-- Transport & Logistics -->
+        <div class="accordion-item mb-n3 mb-lg-n2 mb-xl-1">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-binded-content="#img-transport" data-bs-target="#panel-transport" aria-expanded="false" aria-controls="panel-transport">Transport & Logistics</button>
+          </h3>
+          <div class="accordion-collapse collapse" id="panel-transport" data-bs-parent="#industries">
+            <div class="accordion-body">Fleet tracking, booking systems, and logistics automation.</div>
+          </div>
+        </div>
+
+        <!-- E-commerce -->
+        <div class="accordion-item mb-n3 mb-lg-n2 mb-xl-1">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-binded-content="#img-ecommerce" data-bs-target="#panel-ecommerce" aria-expanded="false" aria-controls="panel-ecommerce">E-commerce</button>
+          </h3>
+          <div class="accordion-collapse collapse" id="panel-ecommerce" data-bs-parent="#industries">
+            <div class="accordion-body">Custom online stores, inventory systems, and CRM tools.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Binded images -->
+    <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1">
+      <div class="ps-lg-4 ps-xl-0">
+        <div class="binded-content">
+          <div class="binded-item active" id="img-healthcare"><img class="rounded-5" src="assets/img/index/industries/healthcare2.jpg" alt="Healthcare"></div>
+          <div class="binded-item" id="img-education"><img class="rounded-5" src="assets/img/index/industries/education.JPG" alt="Education"></div>
+          <div class="binded-item" id="img-finance"><img class="rounded-5" src="assets/img/index/industries/finance.jpg" alt="Finance"></div>
+          <div class="binded-item" id="img-transport"><img class="rounded-5" src="assets/img/index/industries/transport.PNG" alt="Transport & Logistics"></div>
+          <div class="binded-item" id="img-ecommerce"><img class="rounded-5" src="assets/img/index/industries/ecommerce.JPG" alt="E-commerce"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills (Carousel)-->
+<section class="pt-2 py-md-4 py-lg-5 mt-2 mt-xl-4 mt-xxl-5">
+  <div class="container d-flex align-items-center justify-content-between pb-4 mb-sm-2 mb-md-3">
+    <h2 class="h1 mb-0">Our skills</h2>
+    <div class="d-flex">
+      <button class="btn btn-sm btn-icon btn-outline-primary rounded-circle" type="button" id="prev-skill"><i class="ai-arrow-left"></i></button>
+      <button class="btn btn-sm btn-icon btn-outline-primary rounded-circle ms-3" type="button" id="next-skill"><i class="ai-arrow-right"></i></button>
+    </div>
+  </div>
+  <!-- Swiper slider-->
+  <div class="container-start">
+    <div class="swiper" data-swiper-options='{
+      "slidesPerView": "auto",
+      "spaceBetween": 24,
+      "loop": true,
+      "navigation": {
+        "prevEl": "#prev-skill",
+        "nextEl": "#next-skill"
+      }
+    }'>
+      <div class="swiper-wrapper text-center">
+
+        <!-- Python -->
+        <div class="swiper-slide w-sm-auto h-auto">
+          <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5">
+            <div class="card-flip-inner mx-auto" style="max-width: 306px;">
+              <div class="card-flip-front p-0">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100">
+                  <img src="assets/img/landing/skills/python.png" width="72" alt="Python">
+                </div>
+              </div>
+              <div class="card-flip-back p-0 bg-transparent">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center h-100">
+                  <img src="assets/img/landing/skills/python.png" width="52" alt="Python">
+                  <p class="fs-sm pt-3 mb-0">Python is a versatile language known for its simplicity and broad application in AI, data science, and backend systems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lantern - About books access -->
+        <div class="swiper-slide w-sm-auto h-auto">
+          <div class="card border-0 bg-secondary h-100">
+            <div class="card-body mx-auto" style="max-width: 416px;">
+              <p class="fs-lg mb-1">"LOGIX helped us create an online platform where users can easily access and buy academic books digitally fast, secure, and affordable."</p>
+              <img src="assets/img/portfolio/brands/lanternnobg.png" width="150" alt="Lantern Logo">
+            </div>
+          </div>
+        </div>
+
+        <!-- Django -->
+        <div class="swiper-slide w-sm-auto h-auto">
+          <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5">
+            <div class="card-flip-inner mx-auto" style="max-width: 306px;">
+              <div class="card-flip-front p-0">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100">
+                  <img src="assets/img/landing/skills/django.png" width="72" alt="Django">
+                </div>
+              </div>
+              <div class="card-flip-back p-0 bg-transparent">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center h-100">
+                  <img src="assets/img/landing/skills/django.png" width="52" alt="Django">
+                  <p class="fs-sm pt-3 mb-0">Django is a high level Python framework that enables clean, rapid development of secure and scalable web applications.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NBC - System ya mikopo -->
+        <div class="swiper-slide w-sm-auto h-auto">
+          <div class="card border-0 bg-secondary h-100">
+            <div class="card-body mx-auto" style="max-width: 416px;">
+              <p class="fs-lg mb-1">"LOGIX developed a powerful loan management system for our microfinance services improving automation, tracking, and reporting."</p>
+              <img src="assets/img/portfolio/brands/nbcnobg.png" width="150" alt="NBC Logo">
+            </div>
+          </div>
+        </div>
+
+        <!-- React -->
+        <div class="swiper-slide w-sm-auto h-auto">
+          <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5">
+            <div class="card-flip-inner mx-auto" style="max-width: 306px;">
+              <div class="card-flip-front p-0">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100">
+                  <img src="assets/img/landing/skills/react.svg" width="72" alt="React">
+                </div>
+              </div>
+              <div class="card-flip-back p-0 bg-transparent">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center h-100">
+                  <img src="assets/img/landing/skills/react.svg" width="52" alt="React">
+                  <p class="fs-sm pt-3 mb-0">React is a powerful frontend library for building fast and interactive user interfaces with reusable components.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- APE - About books (like Lantern) -->
+          <div class="swiper-slide w-sm-auto h-auto">
+            <div class="card border-0 bg-secondary h-100">
+              <div class="card-body mx-auto" style="max-width: 416px;">
+                <p class="fs-lg mb-1">"Our vision to offer seamless online ticketing was made real by LOGIX. They built a fast, reliable, and intuitive platform that transformed how we serve our customers."</p>
+                <img src="assets/img/clients/msafiri.png" width="150" alt="APE Logo">
+              </div>
+            </div>
+          </div>
+
+
+        <!-- Flutter -->
+        <div class="swiper-slide w-sm-auto h-auto">
+          <div class="card card-flip card-hover border-0 w-sm-auto h-100 bg-secondary rounded-5">
+            <div class="card-flip-inner mx-auto" style="max-width: 306px;">
+              <div class="card-flip-front p-0">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 opacity-100">
+                  <img src="assets/img/landing/skills/icons8-flutter-50.png" width="72" alt="Flutter">
+                </div>
+              </div>
+              <div class="card-flip-back p-0 bg-transparent">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center h-100">
+                  <img src="assets/img/landing/skills/icons8-flutter-50.png" width="52" alt="Flutter">
+                  <p class="fs-sm pt-3 mb-0">Flutter allows us to develop beautiful, natively compiled mobile, web, and desktop apps from a single codebase.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tunzaa - Kulipia kidogo kidogo -->
+        <div class="swiper-slide w-sm-auto h-auto">
+          <div class="card border-0 bg-secondary h-100">
+            <div class="card-body mx-auto" style="max-width: 416px;">
+              <p class="fs-lg mb-1">"LOGIX built a flexible payment platform enabling our users to save now buy later boosting our customer retention and trust."</p>
+              <img src="assets/img/portfolio/brands/tunzaanobg.png" width="150" alt="Tunzaa Logo">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Portfolio-->
+      <section class="container pt-5 pb-sm-3 mt-2 mt-sm-4 mb-2 mb-md-3 mb-lg-4 mb-xxl-5">
+        <h2 class="h1 text-center">Recent case studies</h2>
+        <p class="pb-4 mb-md-2 mb-lg-3 text-center">Below you'll find handpicked recent projects we are most proud of</p>
+        <!-- Item-->
+        <div class="row align-items-center pt-xl-2 pb-5 mb-lg-2 mb-xl-3 mb-xxl-4">
+          <div class="col-md-7 col-lg-6 mb-4 mb-md-0"><a class="d-block position-relative" href="portfolio-single-v1.html">
+              <div class="bg-info rounded-5 position-absolute top-0 start-0 w-100 h-100" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="250"></div><img class="d-block position-relative zindex-2 mx-auto" src="assets/img/portfolio/tunzaacasenobg.png" width="636" alt="Image" data-aos="fade-in" data-aos-duration="400" data-aos-offset="250"></a></div>
+          <div class="col-md-5 col-xl-4 offset-lg-1" data-aos="fade-up" data-aos-duration="400" data-aos-offset="170">
+            <img class="d-block d-dark-mode-none mb-2 mb-lg-3" src="assets/img/portfolio/brands/tunzaanobg.png" alt="Champion" style="width: 100px;">
+             <h2 class="h4">Tunzaa</h2>
+              <p class="fs-sm pb-3 pb-lg-4 mb-3">Saving first fintech platform designed to promote financial discipline...</p><a class="btn btn-sm btn-outline-dark rounded-pill" href="cases.html">Read the full case</a>
+              <div class="d-flex align-items-center pt-2 pt-lg-3 mt-3">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item-->
+        <div class="row align-items-center pt-xl-2 pb-5 mb-lg-2 mb-xl-3 mb-xxl-4">
+          <div class="col-md-7 col-lg-6 mb-4 mb-md-0"><a class="d-block position-relative" href="portfolio-single-v1.html">
+              <div class="bg-primary rounded-5 position-absolute top-0 start-0 w-100 h-100" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="250"></div><img class="d-block position-relative zindex-2 mx-auto" src="assets/img/portfolio/lant.png" width="636" alt="Image" data-aos="fade-in" data-aos-duration="400" data-aos-offset="250"></a></div>
+          <div class="col-md-5 col-xl-4 offset-lg-1" data-aos="fade-up" data-aos-duration="400" data-aos-offset="170">
+            <img class="d-block d-dark-mode-none mb-2 mb-lg-3" src="assets/img/portfolio/brands/lanternnobg.png" alt="Champion" style="width: 140px;">
+              <h2 class="h4">Lantern</h2>
+              <p class="fs-sm pb-3 pb-lg-4 mb-3">Lantern is a platform that empowers publishers and authors... </p><a class="btn btn-sm btn-outline-dark rounded-pill" href="cases.html">Read the full case</a>
+            </div>
+          </div>
+        </div>
+        <!-- Item-->
+        <div class="row align-items-center pt-xl-2 pb-5 mb-lg-2 mb-xl-3 mb-xxl-4">
+          <div class="col-md-7 col-lg-6 mb-4 mb-md-0"><a class="d-block position-relative" href="portfolio-single-v1.html">
+              <div class="bg-danger rounded-5 position-absolute top-0 start-0 w-100 h-100" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="250"></div><img class="d-block position-relative zindex-2 ms-auto" src="assets/img/portfolio/MSAFIRIS22.png" width="636" alt="Image" data-aos="fade-in" data-aos-duration="400" data-aos-offset="250"></a></div>
+          <div class="col-md-5 col-xl-4 offset-lg-1" data-aos="fade-up" data-aos-duration="400" data-aos-offset="170">
+            <div class="ps-md-3 ps-lg-0"><img class="d-block mb-2 mb-lg-3" src="assets/img/portfolio/brands/shabibynobg.png" alt="Boost">
+              <h2 class="h4 mb-lg-4">Shabiby Ticketing System</h2>
+              <ul class="list-unstyled pb-1 pb-lg-2 mb-3">
+                <li class="d-flex pb-1 mb-2"><i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>WhatsApp</li>
+                <li class="d-flex pb-1 mb-2"><i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>Online Ticketing</li>
+                <li class="d-flex pb-1 mb-2"><i class="ai-check-alt text-primary fs-4 mt-n1 me-2"></i>Booking</li>
+              </ul><a class="btn btn-sm btn-outline-dark rounded-pill" href="cases.html">Read the full case</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Benefits-->
+      <section class="bg-secondary pt-5 pb-4">
+        <div class="container py-lg-2 py-xl-4 py-xxl-5">
+          <div class="row mt-1 pt-sm-2 pt-md-3 pt-lg-4">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+              <h2 class="h1">Benefits of working with us</h2>
+              <p class="pb-1 pb-md-0 mb-4 mb-md-5">Partnering with LOGIX means working with a team that is fast, reliable, and deeply experienced. We use modern technologies to deliver secure, scalable, and user-friendly solutions. No matter your industry, we tailor every project to meet your specific goals with precision and innovation.</p>
+              <h3 class="mb-4">Send your request!</h3>
+<!-- Contact Form -->
+<form id="contactForm" class="needs-validation row g-4" novalidate>
+  <div class="col-lg-10">
+    <label class="form-label fs-base" for="name">Name</label>
+    <input class="form-control form-control-lg" type="text" placeholder="Your name" required id="name">
+    <div class="invalid-feedback">Please enter your name!</div>
+  </div>
+  <div class="col-lg-10">
+    <label class="form-label fs-base" for="email">Email</label>
+    <input class="form-control form-control-lg" type="email" placeholder="Email address" required id="email">
+    <div class="invalid-feedback">Please provide a valid email address!</div>
+  </div>
+  <div class="col-lg-10">
+    <label class="form-label fs-base" for="message">Message</label>
+    <textarea class="form-control form-control-lg" placeholder="Your message" rows="4" required id="message"></textarea>
+    <div class="invalid-feedback">Please write your message!</div>
+  </div>
+  <div class="col-lg-10">
+    <button class="btn btn-lg btn-dark rounded-pill mt-2" type="submit">Send request</button>
+  </div>
+</form>
+
+<!-- Thank You Modal -->
+<div id="thankYouModal" class="modal-overlay" style="display: none;">
+  <div class="thank-you-box">
+    <h3>Thank you for contacting LOGIX! We will contact you soon.</h3>
+    <button class="btn btn-primary mt-3" onclick="closeThankYou()">Close</button>
+  </div>
+</div>
+
+<!-- CSS Styles -->
+<style>
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+
+  .thank-you-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .thank-you-box h3 {
+    margin-bottom: 15px;
+  }
+
+  body.modal-open {
+    overflow: hidden;
+  }
+</style>
+
+<!-- JavaScript -->
+<script>
+  const form = document.getElementById("contactForm");
+  const modal = document.getElementById("thankYouModal");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    form.reset();
+    modal.style.display = "flex";
+    document.body.classList.add("modal-open");
+  });
+
+  function closeThankYou() {
+    modal.style.display = "none";
+    document.body.classList.remove("modal-open");
+  }
+</script>
+
+         </div>
+            <div class="col-lg-7 col-xl-6 offset-xl-1">
+              <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col">
+                  <div class="card border-0 mb-4">
+                    <div class="card-body">
+                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="text-warning" d="M31.5412 14.6389C30.9843 23.6874 23.7303 30.927 14.6641 31.4828V35.9999H36.0671V14.6389H31.5412Z" fill="currentColor"></path>
+                        <path class="text-primary" d="M13.5469 27.0373C21.0277 27.0373 27.0922 20.9848 27.0922 13.5186H13.5469V27.0373Z" fill="currentColor"></path>
+                        <path class="text-warning" d="M26.3276 9.03734C24.475 3.77395 19.4522 0 13.5453 0C6.06443 0 0 6.0525 0 13.5187C0 19.4139 3.78139 24.4269 9.05514 26.2758V9.03734H26.3276Z" fill="currentColor"></path>
+                      </svg>
+                      <h3 class="h4" style="max-width: 180px;">Agile Development</h3>
+                      <p class="card-text fs-sm">Rapid, flexible, and client focused software delivery approach.</p>
+                    </div>
+                  </div>
+                  <div class="card border-0 bg-primary dark-mode">
+                    <div class="card-body">
+                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.7496 11.4756C25.3743 8.85089 25.3743 4.59539 22.7496 1.97068C20.1249 -0.654032 15.8694 -0.654033 13.2447 1.97068C10.6199 4.59539 10.6199 8.85089 13.2447 11.4756C15.8694 14.1003 20.1249 14.1003 22.7496 11.4756Z" fill="white"></path>
+                        <path class="text-warning" d="M13.2173 26.3746C14.0903 24.3107 15.2282 22.395 16.6119 20.6516C12.48 16.1818 6.56698 13.3827 0 13.3827V36H11.2733C11.2733 32.6628 11.9274 29.4243 13.2173 26.3746Z" fill="currentColor"></path>
+                        <path class="text-warning" d="M36.0001 36.0001V13.3828C23.5089 13.3828 13.3828 23.5089 13.3828 36.0001H36.0001Z" fill="currentColor"></path>
+                      </svg>
+                      <h3 class="h4" style="max-width: 180px;">Robust Integrations</h3>
+                      <p class="card-text fs-sm">We integrate systems and APIs that ensure seamless performance.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col d-flex flex-column pt-4 mt-sm-3">
+                  <div class="card border-0 order-sm-2 mb-4 mb-sm-0">
+                    <div class="card-body">
+                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="text-warning" d="M31.5412 14.6389C30.9843 23.6874 23.7303 30.927 14.6641 31.4828V35.9999H36.0671V14.6389H31.5412Z" fill="currentColor"></path>
+                        <path class="text-primary" d="M13.5469 27.0373C21.0277 27.0373 27.0922 20.9848 27.0922 13.5186H13.5469V27.0373Z" fill="currentColor"></path>
+                        <path class="text-warning" d="M26.3276 9.03734C24.475 3.77395 19.4522 0 13.5453 0C6.06443 0 0 6.0525 0 13.5187C0 19.4139 3.78139 24.4269 9.05514 26.2758V9.03734H26.3276Z" fill="currentColor"></path>
+                      </svg>
+                      <h3 class="h4" style="max-width: 180px;">Cross Industry Experience</h3>
+                      <p class="card-text fs-sm">We build solutions for logistics, education, HR, finance, and more.</p>
+                    </div>
+                  </div>
+                  <div class="card border-0 bg-primary dark-mode order-sm-1 mb-sm-4">
+                    <div class="card-body">
+                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.4844 22.4814H36.0031V36.0001H22.4844V22.4814Z" fill="white"></path>
+                        <path class="text-warning" d="M8.96266 18C8.96266 13.0088 13.0088 8.96266 18 8.96266C22.9912 8.96266 27.0373 13.0088 27.0373 18H36C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36V27.0373C13.0088 27.0373 8.96266 22.9912 8.96266 18Z" fill="currentColor"></path>
+                      </svg>
+                      <h3 class="h4" style="max-width: 180px;">Modern Tech Stack</h3>
+                      <p class="card-text fs-sm">We use Java, Django, PHP, Bootstrap, MySQL, and more modern tools.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <footer class="footer bg-secondary pt-4 pb-2 pb-md-5 pt-sm-5">
+      <div class="container-fluid pb-1 pb-md-0 px-md-5">
+        <div class="dark-mode bg-dark rounded-5 position-relative overflow-hidden w-100 py-5 px-3 px-sm-4 px-xl-5 mx-auto" style="max-width: 1660px;">
+          <div class="position-absolute top-50 start-50 translate-middle" style="width: 1664px;"><img src="assets/img/landing/web-studio/footer-wave.png" alt="Wave"></div>
+          <div class="container position-relative zindex-2 pt-md-3 pt-lg-4 pt-xl-5 pb-2">
+            <div class="row pb-2">
+              <div class="col-lg-4 col-xxl-3 pb-2 pb-lg-0 mb-4 mb-lg-0">
+                 <a class="navbar-brand d-flex align-items-center" href="index.html" style="margin-left: -4px;">
+               <img src="assets/favicon/logix.png" alt="Logix" class="img-fluid" style="height: 65px;">
+            </a>
+                <p class="fs-sm mb-4">Robust, scalable software solutions with modern frameworks and technologies.</p>
+              </div>
+              <div class="col-sm-4 col-lg-2 offset-lg-1 offset-xl-2 offset-xxl-3 mb-4 mb-sm-0">
+                <ul class="nav flex-column fs-sm">
+                  <li class="nav-item"><a class="nav-link fw-normal px-0 py-1" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link fw-normal px-0 py-1" href="services.html">Services</a></li>
+                  <li class="nav-item"><a class="nav-link fw-normal px-0 py-1" href="about.html">About</a></li>
+                  <li class="nav-item"><a class="nav-link fw-normal px-0 py-1" href="cases.html">Cases</a></li>
+                </ul>
+              </div>
+              
+              <div class="col-sm-4 col-lg-3 col-xl-2">
+                <h6 class="fw-bold">Contact us</h6>
+                <ul class="nav flex-column fs-sm">
+                  <li class="nav-item"><a class="nav-link fw-normal px-0 py-1" href="mailto:email@example.com">logix@contact.co.tz</a></li>
+                  <li class="nav-item"><a class="nav-link fw-normal px-0 py-1" href="tel:+15262200459">+255 755 277 133</a></li>
+                  <li class="nav-item"><a class="nav-link fw-normal px-0 py-1" href="tel:+255766626666">+255 766 626 666</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="d-sm-flex align-items-center justify-content-between pt-4 pt-md-5 mt-2 mt-md-0 mt-lg-2 mt-xl-4">
+              <div class="d-flex justify-content-center order-sm-2 me-md-n2"><a class="btn btn-icon btn-sm btn-secondary btn-instagram rounded-circle mx-2" href="#"><i class="ai-instagram"></i></a><a class="btn btn-icon btn-sm btn-secondary btn-facebook rounded-circle mx-2" href="#"><i class="ai-facebook"></i></a><a class="btn btn-icon btn-sm btn-secondary btn-linkedin rounded-circle mx-2" href="#"><i class="ai-linkedin"></i></a></div>
+              <p class="fs-sm order-sm-1 text-center text-sm-start pt-4 pt-sm-0 mb-0 me-4"><span class="opacity-70">&copy;2025 Logix | All Rights Reserved</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll>
+      <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"></circle>
+      </svg><i class="ai-arrow-up"></i></a>
+    <!-- Vendor scripts: js libraries and plugins-->
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="/assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/vendor/aos/dist/aos.js"></script>
+    <!-- Main theme script-->
+    <script src="/assets/js/theme.min.js"></script>
+    <!-- Customizer-->
+    <script>!function(){function e(e){return localStorage.getItem(e)}function r(e,r){localStorage.setItem(e,r)}var t=document.getElementById("customizer-styles"),n=document.getElementById("custom-generated-styles"),o=`\n    :root {\n      ${e("theme-primary")&&`--ar-primary: ${e("theme-primary")};`}\n      ${e("theme-primary-rgb")&&`--ar-primary-rgb: ${e("theme-primary-rgb")};`}\n      ${e("theme-warning")&&`--ar-warning-rgb: ${e("theme-warning")};`}\n      ${e("theme-warning-rgb")&&`--ar-warning-rgb: ${e("theme-warning-rgb")};`}\n      ${e("theme-info")&&`--ar-info-rgb: ${e("theme-info")};`}\n      ${e("theme-info-rgb")&&`--ar-info-rgb: ${e("theme-info-rgb")};`}\n      ${e("theme-success")&&`--ar-success-rgb: ${e("success-info")};`}\n      ${e("theme-success-rgb")&&`--ar-success-rgb: ${e("success-info-rgb")};`}\n      ${e("theme-danger")&&`--ar-danger-rgb: ${e("danger-info")};`}\n      ${e("theme-danger-rgb")&&`--ar-danger-rgb: ${e("danger-info-rgb")};`}\n      ${e("theme-font-family")&&`--ar-body-font-family: ${e("theme-font-family")};`}\n      ${e("theme-root-font-size")&&`--ar-root-font-size: ${e("theme-root-font-size")};`}\n      ${e("theme-body-font-size")&&`--ar-body-font-size: ${e("theme-body-font-size")};`}\n      ${e("theme-border-width")&&`--ar-border-width: ${e("theme-border-width")};`}\n      ${e("theme-border-radius")&&`--ar-border-radius: ${e("theme-border-radius")};`}\n      ${e("theme-border-radius-sm")&&`--ar-border-radius-sm: ${e("theme-border-radius-sm")};`}\n      ${e("theme-border-radius-lg")&&`--ar-border-radius-lg: ${e("theme-border-radius-lg")};`}\n      ${e("theme-border-radius-xl")&&`--ar-border-radius-xl: ${e("theme-border-radius-xl")};`}\n      ${e("theme-border-radius-2xl")&&`--ar-border-radius-2xl: ${e("theme-border-radius-2xl")};`}\n      ${e("theme-primary")&&`--ar-link-color: ${e("theme-primary")};`}\n      ${e("theme-primary-btn-hover-active-border-bg-color")&&`--ar-link-hover-color: ${e("theme-primary-btn-hover-active-border-bg-color")};`}\n    }\n    .btn-primary {\n      ${e("theme-primary")&&`--ar-btn-bg: ${e("theme-primary")};`}\n      ${e("theme-primary")&&`--ar-btn-border-color: ${e("theme-primary")};`}\n      ${e("theme-primary-btn-hover-active-border-bg-color")&&`--ar-btn-hover-bg: ${e("theme-primary-btn-hover-active-border-bg-color")};`}\n      ${e("theme-primary-btn-hover-active-border-bg-color")&&`--ar-btn-hover-border-color: ${e("theme-primary-btn-hover-active-border-bg-color")};`}\n      ${e("theme-primary-btn-hover-active-border-bg-color")&&`--ar-btn-active-bg: ${e("theme-primary-btn-hover-active-border-bg-color")};`}\n      ${e("theme-primary-btn-hover-active-border-bg-color")&&`--ar-btn-active-border-color: ${e("theme-primary-btn-hover-active-border-bg-color")};`}\n      ${e("theme-primary")&&`--ar-btn-disabled-bg: ${e("theme-primary")};`}\n      ${e("theme-primary")&&`--ar-btn-disabled-border-color: ${e("theme-primary")};`}\n    }\n    .btn-warning {\n      ${e("theme-warning")&&`--ar-btn-bg: ${e("theme-warning")};`}\n      ${e("theme-warning")&&`--ar-btn-border-color: ${e("theme-warning")};`}\n      ${e("theme-warning-btn-hover-active-border-bg-color")&&`--ar-btn-hover-bg: ${e("theme-warning-btn-hover-active-border-bg-color")};`}\n      ${e("theme-warning-btn-hover-active-border-bg-color")&&`--ar-btn-hover-border-color: ${e("theme-warning-btn-hover-active-border-bg-color")};`}\n      ${e("theme-warning-btn-hover-active-border-bg-color")&&`--ar-btn-active-bg: ${e("theme-warning-btn-hover-active-border-bg-color")};`}\n      ${e("theme-warning-btn-hover-active-border-bg-color")&&`--ar-btn-active-border-color: ${e("theme-warning-btn-hover-active-border-bg-color")};`}\n      ${e("theme-warning")&&`--ar-btn-disabled-bg: ${e("theme-warning")};`}\n      ${e("theme-warning")&&`--ar-btn-disabled-border-color: ${e("theme-warning")};`}\n    }\n    .btn-info {\n      ${e("theme-info")&&`--ar-btn-bg: ${e("theme-info")};`}\n      ${e("theme-info")&&`--ar-btn-border-color: ${e("theme-info")};`}\n      ${e("theme-info-btn-hover-active-border-bg-color")&&`--ar-btn-hover-bg: ${e("theme-info-btn-hover-active-border-bg-color")};`}\n      ${e("theme-info-btn-hover-active-border-bg-color")&&`--ar-btn-hover-border-color: ${e("theme-info-btn-hover-active-border-bg-color")};`}\n      ${e("theme-info-btn-hover-active-border-bg-color")&&`--ar-btn-active-bg: ${e("theme-info-btn-hover-active-border-bg-color")};`}\n      ${e("theme-info-btn-hover-active-border-bg-color")&&`--ar-btn-active-border-color: ${e("theme-info-btn-hover-active-border-bg-color")};`}\n      ${e("theme-info")&&`--ar-btn-disabled-bg: ${e("theme-info")};`}\n      ${e("theme-info")&&`--ar-btn-disabled-border-color: ${e("theme-info")};`}\n    }\n    .btn-success {\n      ${e("theme-success")&&`--ar-btn-bg: ${e("theme-success")};`}\n      ${e("theme-success")&&`--ar-btn-border-color: ${e("theme-success")};`}\n      ${e("theme-success-btn-hover-active-border-bg-color")&&`--ar-btn-hover-bg: ${e("theme-success-btn-hover-active-border-bg-color")};`}\n      ${e("theme-success-btn-hover-active-border-bg-color")&&`--ar-btn-hover-border-color: ${e("theme-success-btn-hover-active-border-bg-color")};`}\n      ${e("theme-success-btn-hover-active-border-bg-color")&&`--ar-btn-active-bg: ${e("theme-success-btn-hover-active-border-bg-color")};`}\n      ${e("theme-success-btn-hover-active-border-bg-color")&&`--ar-btn-active-border-color: ${e("theme-success-btn-hover-active-border-bg-color")};`}\n      ${e("theme-success")&&`--ar-btn-disabled-bg: ${e("theme-success")};`}\n      ${e("theme-success")&&`--ar-btn-disabled-border-color: ${e("theme-success")};`}\n    }\n    .btn-danger {\n      ${e("theme-danger")&&`--ar-btn-bg: ${e("theme-danger")};`}\n      ${e("theme-danger")&&`--ar-btn-border-color: ${e("theme-danger")};`}\n      ${e("theme-danger-btn-hover-active-border-bg-color")&&`--ar-btn-hover-bg: ${e("theme-danger-btn-hover-active-border-bg-color")};`}\n      ${e("theme-danger-btn-hover-active-border-bg-color")&&`--ar-btn-hover-border-color: ${e("theme-danger-btn-hover-active-border-bg-color")};`}\n      ${e("theme-danger-btn-hover-active-border-bg-color")&&`--ar-btn-active-bg: ${e("theme-danger-btn-hover-active-border-bg-color")};`}\n      ${e("theme-danger-btn-hover-active-border-bg-color")&&`--ar-btn-active-border-color: ${e("theme-danger-btn-hover-active-border-bg-color")};`}\n      ${e("theme-danger")&&`--ar-btn-disabled-bg: ${e("theme-danger")};`}\n      ${e("theme-danger")&&`--ar-btn-disabled-border-color: ${e("theme-danger")};`}\n    }\n    .btn-outline-primary {\n      ${e("theme-primary")&&`--ar-btn-color: ${e("theme-primary")};`}\n      ${e("theme-primary")&&`--ar-btn-border-color: ${e("theme-primary")};`}\n      ${e("theme-primary")&&`--ar-btn-hover-bg: ${e("theme-primary")};`}\n      ${e("theme-primary")&&`--ar-btn-hover-border-color: ${e("theme-primary")};`}\n      ${e("theme-primary")&&`--ar-btn-active-bg: ${e("theme-primary")};`}\n      ${e("theme-primary")&&`--ar-btn-active-border-color: ${e("theme-primary")};`}\n      ${e("theme-primary")&&`--ar-btn-disabled-color: ${e("theme-primary")};`}\n      ${e("theme-primary")&&`--ar-btn-disabled-border-color: ${e("theme-primary")};`}\n    }\n    .btn-outline-warning {\n      ${e("theme-warning")&&`--ar-btn-color: ${e("theme-warning")};`}\n      ${e("theme-warning")&&`--ar-btn-border-color: ${e("theme-warning")};`}\n      ${e("theme-warning")&&`--ar-btn-hover-bg: ${e("theme-warning")};`}\n      ${e("theme-warning")&&`--ar-btn-hover-border-color: ${e("theme-warning")};`}\n      ${e("theme-warning")&&`--ar-btn-active-bg: ${e("theme-warning")};`}\n      ${e("theme-warning")&&`--ar-btn-active-border-color: ${e("theme-warning")};`}\n      ${e("theme-warning")&&`--ar-btn-disabled-color: ${e("theme-warning")};`}\n      ${e("theme-warning")&&`--ar-btn-disabled-border-color: ${e("theme-warning")};`}\n    }\n    .btn-outline-info {\n      ${e("theme-info")&&`--ar-btn-color: ${e("theme-info")};`}\n      ${e("theme-info")&&`--ar-btn-border-color: ${e("theme-info")};`}\n      ${e("theme-info")&&`--ar-btn-hover-bg: ${e("theme-info")};`}\n      ${e("theme-info")&&`--ar-btn-hover-border-color: ${e("theme-info")};`}\n      ${e("theme-info")&&`--ar-btn-active-bg: ${e("theme-info")};`}\n      ${e("theme-info")&&`--ar-btn-active-border-color: ${e("theme-info")};`}\n      ${e("theme-info")&&`--ar-btn-disabled-color: ${e("theme-info")};`}\n      ${e("theme-info")&&`--ar-btn-disabled-border-color: ${e("theme-info")};`}\n    }\n    .btn-outline-success {\n      ${e("theme-success")&&`--ar-btn-color: ${e("theme-success")};`}\n      ${e("theme-success")&&`--ar-btn-border-color: ${e("theme-success")};`}\n      ${e("theme-success")&&`--ar-btn-hover-bg: ${e("theme-success")};`}\n      ${e("theme-success")&&`--ar-btn-hover-border-color: ${e("theme-success")};`}\n      ${e("theme-success")&&`--ar-btn-active-bg: ${e("theme-success")};`}\n      ${e("theme-success")&&`--ar-btn-active-border-color: ${e("theme-success")};`}\n      ${e("theme-success")&&`--ar-btn-disabled-color: ${e("theme-success")};`}\n      ${e("theme-success")&&`--ar-btn-disabled-border-color: ${e("theme-success")};`}\n    }\n    .btn-outline-danger {\n      ${e("theme-danger")&&`--ar-btn-color: ${e("theme-danger")};`}\n      ${e("theme-danger")&&`--ar-btn-border-color: ${e("theme-danger")};`}\n      ${e("theme-danger")&&`--ar-btn-hover-bg: ${e("theme-danger")};`}\n      ${e("theme-danger")&&`--ar-btn-hover-border-color: ${e("theme-danger")};`}\n      ${e("theme-danger")&&`--ar-btn-active-bg: ${e("theme-danger")};`}\n      ${e("theme-danger")&&`--ar-btn-active-border-color: ${e("theme-danger")};`}\n      ${e("theme-danger")&&`--ar-btn-disabled-color: ${e("theme-danger")};`}\n      ${e("theme-danger")&&`--ar-btn-disabled-border-color: ${e("theme-danger")};`}\n    }\n  `,a=o;a=o.replace(/null|\s*(?![A-Z])/g,"");t.append(a),a.split("}").map(function(e){-1!==e.indexOf("{--")&&n.append(e+"}")});var i={root:t.sheet.cssRules[0],primaryBtn:t.sheet.cssRules[1],warningBtn:t.sheet.cssRules[2],infoBtn:t.sheet.cssRules[3],successBtn:t.sheet.cssRules[4],dangerBtn:t.sheet.cssRules[5],primaryOutlineBtn:t.sheet.cssRules[6],warningOutlineBtn:t.sheet.cssRules[7],infoOutlineBtn:t.sheet.cssRules[8],successOutlineBtn:t.sheet.cssRules[9],dangerOutlineBtn:t.sheet.cssRules[10]};function b(){n.innerHTML=i.root.cssText.replace(/null|\s*(?![A-Z])/g,""),n.innerHTML+=-1===i.primaryBtn.cssText.indexOf("{ }")?i.primaryBtn.cssText.replace(/ /g,""):"",n.innerHTML+=-1===i.warningBtn.cssText.indexOf("{ }")?i.warningBtn.cssText.replace(/ /g,""):"",n.innerHTML+=-1===i.infoBtn.cssText.indexOf("{ }")?i.infoBtn.cssText.replace(/ /g,""):"",n.innerHTML+=-1===i.successBtn.cssText.indexOf("{ }")?i.successBtn.cssText.replace(/ /g,""):"",n.innerHTML+=-1===i.dangerBtn.cssText.indexOf("{ }")?i.dangerBtn.cssText.replace(/ /g,""):"",n.innerHTML+=-1===i.primaryOutlineBtn.cssText.indexOf("{ }")?i.primaryOutlineBtn.cssText.replace(/ /g,""):"",n.innerHTML+=-1===i.warningOutlineBtn.cssText.indexOf("{ }")?i.warningOutlineBtn.cssText.replace(/ /g,""):"",n.innerHTML+=-1===i.infoOutlineBtn.cssText.indexOf("{ }")?i.infoOutlineBtn.cssText.replace(/ /g,""):"",n.innerHTML+=-1===i.successOutlineBtn.cssText.indexOf("{ }")?i.successOutlineBtn.cssText.replace(/ /g,""):"",n.innerHTML+=-1===i.dangerOutlineBtn.cssText.indexOf("{ }")?i.dangerOutlineBtn.cssText.replace(/ /g,""):""}function s(e){var r=0,t=0,n=0;return 4==e.length?(r="0x"+e[1]+e[1],t="0x"+e[2]+e[2],n="0x"+e[3]+e[3]):7==e.length&&(r="0x"+e[1]+e[2],t="0x"+e[3]+e[4],n="0x"+e[5]+e[6]),+r+","+ +t+","+ +n}function c(e,r){var t=parseInt(e.replace("#",""),16),n=Math.round(2.55*r),o=(t>>16)+n,a=(t>>8&255)+n,i=(255&t)+n;return"#"+(16777216+65536*(o<255?o<1?0:o:255)+256*(a<255?a<1?0:a:255)+(i<255?i<1?0:i:255)).toString(16).slice(1)}for(var l=document.querySelectorAll("#theme-colors .color-swatch"),d=0;d<l.length;d++){var m=l[d].querySelector("label"),h=l[d].querySelector('input[type="color"]');colorInput=l[d].querySelector('input[type="text"]'),colorInput.value=e(l[d].id)||colorInput.value,h.value=e(l[d].id)||h.value,m.style.backgroundColor=e(l[d].id)||h.value,h.addEventListener("input",function(e){var n=e.target.parentElement.querySelector("label"),o=e.target.parentElement.querySelector('input[type="text"]'),a=e.target.value;t.sheet.cssRules[d+1];r("theme-"+e.target.id,a),r("theme-"+e.target.id+"-rgb",s(a)),r("theme-"+e.target.id+"-btn-hover-active-border-bg-color",c(a,-10)),n.style.backgroundColor=a,o.value=a,i.root.style.setProperty("--ar-"+e.target.id,a),i.root.style.setProperty("--ar-"+e.target.id+"-rgb",s(a)),i[e.target.id+"Btn"].style.setProperty("--ar-btn-bg",a),i[e.target.id+"Btn"].style.setProperty("--ar-btn-border-color",a),i[e.target.id+"Btn"].style.setProperty("--ar-btn-hover-bg",c(a,-10)),i[e.target.id+"Btn"].style.setProperty("--ar-btn-hover-border-color",c(a,-10)),i[e.target.id+"Btn"].style.setProperty("--ar-btn-active-bg",c(a,-10)),i[e.target.id+"Btn"].style.setProperty("--ar-btn-active-border-color",c(a,-10)),i[e.target.id+"Btn"].style.setProperty("--ar-btn-disabled-bg",a),i[e.target.id+"Btn"].style.setProperty("--ar-btn-disabled-border-color",a),i[e.target.id+"OutlineBtn"].style.setProperty("--ar-btn-color",a),i[e.target.id+"OutlineBtn"].style.setProperty("--ar-btn-border-color",a),i[e.target.id+"OutlineBtn"].style.setProperty("--ar-btn-hover-bg",a),i[e.target.id+"OutlineBtn"].style.setProperty("--ar-btn-hover-border-color",a),i[e.target.id+"OutlineBtn"].style.setProperty("--ar-btn-active-bg",a),i[e.target.id+"OutlineBtn"].style.setProperty("--ar-btn-active-border-color",a),i[e.target.id+"OutlineBtn"].style.setProperty("--ar-btn-disabled-color",a),i[e.target.id+"OutlineBtn"].style.setProperty("--ar-btn-disabled-border-color",a),"primary"===e.target.id&&(r("theme-link-hover-color",c(a,-10)),i.root.style.setProperty("--ar-link-color",a),i.root.style.setProperty("--ar-link-hover-color",c(a,-10))),b()}),colorInput.addEventListener("change",function(e){var t=e.target.parentElement.querySelector("label"),n=e.target.parentElement.querySelector('input[type="color"]'),o=e.target.value;0!=o.length&&o.startsWith("#")&&(r("theme-"+n.id,o),r("theme-"+n.id+"-rgb",s(o)),r("theme-"+n.id+"-btn-hover-active-border-bg-color",c(o,-10)),t.style.backgroundColor=o,n.value=o,i.root.style.setProperty("--ar-"+n.id,o),i.root.style.setProperty("--ar-"+n.id+"-rgb",s(o)),i[n.id+"Btn"].style.setProperty("--ar-btn-bg",o),i[n.id+"Btn"].style.setProperty("--ar-btn-border-color",o),i[n.id+"Btn"].style.setProperty("--ar-btn-hover-bg",c(o,-10)),i[n.id+"Btn"].style.setProperty("--ar-btn-hover-border-color",c(o,-10)),i[n.id+"Btn"].style.setProperty("--ar-btn-active-bg",c(o,-10)),i[n.id+"Btn"].style.setProperty("--ar-btn-active-border-color",c(o,-10)),i[n.id+"Btn"].style.setProperty("--ar-btn-disabled-bg",o),i[n.id+"Btn"].style.setProperty("--ar-btn-disabled-border-color",o),i[n.id+"OutlineBtn"].style.setProperty("--ar-btn-color",o),i[n.id+"OutlineBtn"].style.setProperty("--ar-btn-border-color",o),i[n.id+"OutlineBtn"].style.setProperty("--ar-btn-hover-bg",o),i[n.id+"OutlineBtn"].style.setProperty("--ar-btn-hover-border-color",o),i[n.id+"OutlineBtn"].style.setProperty("--ar-btn-active-bg",o),i[n.id+"OutlineBtn"].style.setProperty("--ar-btn-active-border-color",o),i[n.id+"OutlineBtn"].style.setProperty("--ar-btn-disabled-color",o),i[n.id+"OutlineBtn"].style.setProperty("--ar-btn-disabled-border-color",o),"primary"===n.id&&(r("theme-link-hover-color",c(o,-10)),i.root.style.setProperty("--ar-link-color",o),i.root.style.setProperty("--ar-link-hover-color",c(o,-10))),b())})}var g=document.getElementById("font-url"),u=document.getElementById("google-font");u.href=e("theme-font-url")||g.value,g.value=e("theme-font-url")||g.value,g.addEventListener("blur",function(e){var t=e.target.value;r("theme-font-url",t),u.href=t});var v=document.getElementById("body-font-family");v.value=e("theme-font-family")||v.value,v.addEventListener("blur",function(e){var t=e.target.value;r("theme-font-family",t),i.root.style.setProperty("--ar-body-font-family",t),b()});var $=document.getElementById("root-font-size");$.value=e("theme-root-font-size")||$.value,$.addEventListener("change",function(e){var t=e.target.value;r("theme-root-font-size",t),i.root.style.setProperty("--ar-root-font-size",t),b()});var y=document.getElementById("body-font-size");y.value=e("theme-body-font-size")||y.value,y.addEventListener("change",function(e){var t=e.target.value;r("theme-body-font-size",t),i.root.style.setProperty("--ar-body-font-size",t),b()});var p=document.getElementById("border-width");p.value=parseInt(e("theme-border-width"))||p.value,p.addEventListener("input",function(e){var t=e.target.value;r("theme-border-width",t+"px"),i.root.style.setProperty("--ar-border-width",t+"px"),b()});var f=document.getElementById("border-radius");f.value=parseFloat(e("theme-border-radius"))||f.value,f.addEventListener("input",function(e){var t=e.target.value;r("theme-border-radius",t+"rem"),i.root.style.setProperty("--ar-border-radius",t+"rem"),b()});var B=document.querySelectorAll('#theme-border-radiuses input[type="number"');for(d=0;d<B.length;d++)B[d].value=e("theme-"+B[d].id+"multiplier")||B[d].value,B[d].addEventListener("input",function(e){var t=e.target.value;r("theme-"+e.target.id,"calc(var(--ar-border-radius) * "+t+")"),r("theme-"+e.target.id+"multiplier",t),i.root.style.setProperty("--ar-"+e.target.id,"calc(var(--ar-border-radius) * "+t+")"),b()});var w=document.getElementById("customizer"),x=document.getElementById("customizer-btns");e("theme-customizer-btns")&&x.classList.remove("d-none"),w.addEventListener("change",function(e){r("theme-customizer-btns",!0),x.classList.remove("d-none")}),document.getElementById("customizer-reset-btn").addEventListener("click",function(){for(var e=[],r=0;r<localStorage.length;r++)"theme"==localStorage.key(r).substring(0,5)&&e.push(localStorage.key(r));for(r=0;r<e.length;r++)localStorage.removeItem(e[r]);window.location.reload()});var P=document.getElementById("copy-styles-btn");P.addEventListener("click",function(){var e=document.createRange();e.selectNode(n),window.getSelection().removeAllRanges(),window.getSelection().addRange(e),navigator.clipboard.writeText(n.innerHTML),this.innerHTML='<i class="ai-check me-2 ms-n1"></i>Copied!',setTimeout(function(){P.innerHTML='<i class="ai-copy me-2 ms-n1"></i>Copy styles'},2e3)})}();</script>
+  </body>
+
+<!-- Mirrored from around.createx.studio/landing-web-studio.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 May 2023 09:10:18 GMT -->
+</html>
